@@ -15,7 +15,7 @@ parser.add_argument('--image_dir', type=str, default='./images')
 parser.add_argument('--output_dir', type=str, default='./output')
 parser.add_argument('--min_pose_score', type=float, default=0.25)
 parser.add_argument('--min_part_score', type=float, default=0.25)
-parser.add_argument('--line_width', type=float, default=1.0)
+parser.add_argument('--line_width', type=int, default=1)
 args = parser.parse_args()
 
 
