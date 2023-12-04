@@ -77,7 +77,7 @@ def draw_skeleton(
 
 def draw_skel_and_kp(
         img, instance_scores, keypoint_scores, keypoint_coords,
-        min_pose_score=0.5, min_part_score=0.5, thickness=1.0):
+        min_pose_score=0.5, min_part_score=0.5, thickness=1):
 
     out_img = img
     adjacent_keypoints = []
